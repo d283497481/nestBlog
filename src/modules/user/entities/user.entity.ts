@@ -4,15 +4,15 @@ import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 @Entity()
 export class User {
   @ApiProperty({
-    description: 'This is User UUID',
+    description: 'dinglucheng',
     required: true,
   })
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
   @ApiProperty({
-    example: 'lmmmmmm',
-    description: 'This is User Name',
+    example: 'dinglucheng',
+    description: 'dinglucheng',
     required: false,
   })
   @Column()
